@@ -15,9 +15,11 @@ For easier access, you can add them as buttons in JOSM interface in
 * Toolbar customization
 
 For instance:
+
 ![josm capture](doc/josm_capture_menu.png)
 
 Or as individual buttons, to add all tags in one click:
+
 ![josm capture](doc/josm_capture_buttons.png)
 
 If you map a lot of transport items in JOSM, you should also take a look and activate [Jungle Bus validators](https://github.com/Jungle-Bus/transport_mapcss) :wink:
