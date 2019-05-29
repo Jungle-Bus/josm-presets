@@ -1,0 +1,13 @@
+dist: trusty
+language: bash
+script:
+  - cd jungle-stops
+  - zip preset.zip *
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_DEPLOY_TOKEN
+  keep-history: true
+  on:
+    branch: master
