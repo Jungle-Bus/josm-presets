@@ -1,7 +1,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 	shortdescription="Jungle stops"
 	description="Presets for adding main tags for public transport stops surveyed with Jungle Bus osmtracker layout"
-	fr.description="Un preset pour ajouter rapidement les tags utiles pour les arrêts de transport. Fonctionne bien les layouts osmtracker de Jungle Bus"
+	fr.description="Un preset pour ajouter rapidement les tags utiles pour les arrêts de transport. Fonctionne bien avec les layouts osmtracker de Jungle Bus"
 	author="nlehuby"
 	version="0.1">
 
@@ -28,7 +28,7 @@
 				<key key="pole" value="no" />
 			</item>
 		</group>
-		<group name="Bateau" icon="Bouton_4.png">
+		<group name="Boat" fr.name="Bateau" icon="Bouton_4.png">
 			<item name="Boat stop" fr.name="Arrêt de bateau" icon="Bouton_4.png" type="node,closedway">
 				<key key="public_transport" value="platform" />
 			</item>
