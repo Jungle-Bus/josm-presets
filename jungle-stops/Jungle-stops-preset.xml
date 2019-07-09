@@ -3,7 +3,9 @@
 	description="Presets for adding main tags for public transport stops surveyed with Jungle Bus osmtracker layout"
 	fr.description="Un preset pour ajouter rapidement les tags utiles pour les arrêts de transport. Fonctionne bien avec les layouts osmtracker de Jungle Bus"
 	author="nlehuby"
-	version="0.1">
+    icon="one.png"
+    link="https://github.com/Jungle-Bus/josm-presets"
+	version="0.2">
 
 	<group name="Jungle stops" icon="one.png">
 		<group name="Bus" icon="Bouton_2.png">
@@ -13,14 +15,14 @@
 				<key key="shelter" value="no" />
 				<key key="pole" value="no" />
 			</item>
-			
+
 			<item name="Stop with pole" fr.name="Poteau" icon="Bouton_2.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
 				<key key="pole" value="yes" />
 				<key key="shelter" value="no" />
 			</item>
-			
+
 			<item name="Stop with shelter" fr.name="Abribus" icon="Bouton_3.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
