@@ -2,7 +2,7 @@
 These presets for JOSM allow to add in one click all main useful tags for public transport stops that have been surveyed with [Jungle Bus osmtracker layout](https://github.com/Jungle-Bus/osmtracker-layouts).
 
 ## Install in JOSM
-TODO :
+
 * Edit -> Preferences
 * Map Settings
 * Tagging presets (third tab)
