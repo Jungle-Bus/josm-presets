@@ -9,6 +9,11 @@
 
 	<group name="Jungle stops" icon="one.png">
 		<group name="Bus" icon="Bouton_2.png">
+			<item name="Generic bus stop" fr.name="Arrêt de bus" icon="Bouton_2.png" type="node">
+				<key key="public_transport" value="platform" />
+				<key key="highway" value="bus_stop" />
+			</item>
+
 			<item name="Unmarked stop" fr.name="Arrêt sans indication" icon="Bouton_1.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
