@@ -44,5 +44,14 @@
 				<key key="ferry" value="yes" />
 			</item>
 		</group>
+		<group name="Taxi" fr.name="Taxi" icon="Bouton_1.png">
+			<item name="Taxi (car)" fr.name="Arrêt de taxi (voiture)" icon="Bouton_6.png" type="node,closedway">
+				<key key="amenity" value="taxi" />
+			</item>
+			<item name="Auto rickshaw" fr.name="Arrêt d'auto-rickshaw" icon="Bouton_5.png" type="node,closedway">
+				<key key="amenity" value="taxi" />
+				<key key="taxi_type" value="auto_rickshaw" />
+			</item>
+		</group>
        </group>
 </presets>
