@@ -5,7 +5,7 @@
 	author="nlehuby"
     icon="one.png"
     link="https://github.com/Jungle-Bus/josm-presets"
-	version="0.2">
+	version="0.3">
 
 	<group name="Jungle stops" icon="one.png">
 		<group name="Bus" icon="Bouton_2.png">
@@ -32,7 +32,6 @@
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
 				<key key="shelter" value="yes" />
-				<key key="pole" value="no" />
 			</item>
 		</group>
 		<group name="Boat" fr.name="Bateau" icon="Bouton_4.png">
