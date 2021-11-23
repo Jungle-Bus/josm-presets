@@ -1,0 +1,23 @@
+name: Build and deploy JOSM presets
+
+on:
+  push:
+    branches-ignore:
+      - 'gh-pages'
+
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build preset
+      run: |
+        cd jungle-stops
+        zip preset.zip *
+    - name: Deploy
+      if: ${{ github.ref == 'refs/heads/master' }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .
