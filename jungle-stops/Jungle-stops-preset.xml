@@ -12,11 +12,13 @@
 			<item name="Generic bus stop" fr.name="Arrêt de bus" icon="Bouton_2.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
+				<key key="bus" value="yes" />
 			</item>
 
 			<item name="Unmarked stop" fr.name="Arrêt sans indication" icon="Bouton_1.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
+				<key key="bus" value="yes" />
 				<key key="shelter" value="no" />
 				<key key="pole" value="no" />
 			</item>
@@ -24,6 +26,7 @@
 			<item name="Stop with pole" fr.name="Poteau" icon="Bouton_2.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
+				<key key="bus" value="yes" />
 				<key key="pole" value="yes" />
 				<key key="shelter" value="no" />
 			</item>
@@ -31,12 +34,14 @@
 			<item name="Stop with shelter" fr.name="Abribus" icon="Bouton_3.png" type="node">
 				<key key="public_transport" value="platform" />
 				<key key="highway" value="bus_stop" />
+				<key key="bus" value="yes" />
 				<key key="shelter" value="yes" />
 			</item>
 		</group>
 		<group name="Boat" fr.name="Bateau" icon="Bouton_4.png">
 			<item name="Boat stop" fr.name="Arrêt de bateau" icon="Bouton_4.png" type="node,closedway">
 				<key key="public_transport" value="platform" />
+				<key key="ferry" value="yes" />
 			</item>
 		</group>
        </group>
