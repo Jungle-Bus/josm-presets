@@ -3,7 +3,7 @@ These presets for JOSM allow to add in one click all main useful tags for public
 
 ## Install in JOSM
 
-* Edit -> Preferences
+* Edit -> Preferenceséléchargements/ungit-linux-x64
 * Map Settings
 * Tagging presets (third tab)
 * Select "Jungle stops"
@@ -29,6 +29,8 @@ If you map a lot of transport items in JOSM, you should also take a look and act
 This project has been developed by the [Jungle Bus](http://junglebus.io/) team.
 
 The code in this repository is under the GPL-3.0 license.
+
+The rickshaw icon was created by James Fenton from the Noun Project. The taxi icon was created by Andi Nur Abdillah from the Noun Project.
 
 If you value this work, show your support by donating to the [OSM French local chapter](http://openstreetmap.fr).
 
