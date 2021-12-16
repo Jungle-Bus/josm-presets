@@ -14,7 +14,7 @@ jobs:
     - name: Build preset
       run: |
         cd jungle-stops
-        zip preset.zip *
+        zip Preset_Jungle-Bus.zip *
     - name: Deploy
       if: ${{ github.ref == 'refs/heads/master' }}
       uses: peaceiris/actions-gh-pages@v3
